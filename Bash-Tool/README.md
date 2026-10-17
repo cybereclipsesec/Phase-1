@@ -23,3 +23,12 @@ chmod +x tool.sh
 
 ## Screenshots Explanation
 The attached screenshots show that code features have proper comments starting with #. The output proof shows the script running perfectly for user Fiza, tracking the exact  execution timestamps and catching input errors smoothly.
+
+## Hurdles Faced
+* **Permission constraints:** Encountered initial execution issues where the script was blocked from running until explicitly granting executive permissions using `chmod +x`.
+* **Platform Inconsistencies:** Adapting script commands to parse system data accurately across different terminal environments and distributions without throwing syntax breaks.
+* **Directory Structural Errors:** Managing the precise staging structure of files and folders directly inside the remote version control interface during final deployment.
+## Future Enhancements
+* **Automated Log Exports:** Implement a module that automatically generates and appends the terminal outputs directly into a timestamped local text log file.
+* **Error Handling & Traps:** Incorporate defensive scripting variables to catch and bypass unprivileged access warnings smoothly without halting execution.
+* **Cross-Platform Compatibility:** Re-engineer core functions to seamlessly recognize and run diagnostics across macOS environments addition to standard Linux systems.
