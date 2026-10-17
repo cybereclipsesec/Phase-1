@@ -1,12 +1,12 @@
-#Scripting and Automation - Phase 1: Bash System Info Tool
+# Scripting and Automation - Phase 1: Bash System Info Tool
 
-##Tool Name
+## Tool Name
 sysinfo.sh (System Information Diagnostic Tool)
 
-##Objectives
+## Objectives
 Automates host reconnaissance by collecting - active user privileges, directory contexts, storage layout maps, and kernel configuration data in a single run.
 
-##Features
+## Features
  - Validates user input flags and output usage instructions with the -h switch.
  - Interactively captures the active analyst profile name.
  - Sweeps disk capacity limit and mounts via df -h tracking blocks.
@@ -17,9 +17,9 @@ Automates host reconnaissance by collecting - active user privileges, directory 
  - Record a definitive chronological calendar timestamp via the date utility for logging.
  - Prints the absolute directory storage path context via pwd where the tool executes.
  
-##How to run
+## How to run
 chmod +x tool.sh
 ./tool.sh
 
-##Screenshots Explanation
+## Screenshots Explanation
 The attached screenshots show that code features have proper comments starting with #. The output proof shows the script running perfectly for user Fiza, tracking the exact  execution timestamps and catching input errors smoothly.
